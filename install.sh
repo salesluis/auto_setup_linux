@@ -39,6 +39,7 @@ APPS_FLATPAK=(
     "com.discordapp.Discord"
     "app.zen_browser.zen"
     "com.bitwarden.desktop"
+    "flathub md.obsidian.Obsidian"
 
 )
 
