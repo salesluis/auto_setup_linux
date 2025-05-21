@@ -21,13 +21,13 @@ APPS_APT=(
     "code"
     
     # Utilitários
+    "nodejs"
     "htop"
     "git"
     "curl"
     "wget"
     
     # Outros
-    "gimp"
     "flatpak"
 
 )
@@ -37,9 +37,11 @@ APPS_FLATPAK=(
     "io.github.fsobolev.TimeSwitch"
     "com.spotify.Client"
     "com.discordapp.Discord"
-    "app.zen_browser.zen"
     "com.bitwarden.desktop"
     "flathub md.obsidian.Obsidian"
+    "com.google.Chrome"
+    "org.chromium.Chromium"
+    "com.getpostman.Postman"
 
 )
 
