@@ -75,6 +75,7 @@ done
 # fazendo o download de arquivos .deb
 
 wget -P /home/salesluis/Downloads https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
+wget -P /home/salesluis/Downloads https://vscode.download.prss.microsoft.com/dbazure/download/stable/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/code_1.100.2-1747260578_amd64.deb
 
 
 cd /home/salesluis/Downloads
