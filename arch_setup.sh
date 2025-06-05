@@ -15,7 +15,6 @@ pacman -Syu --noconfirm
 APPS_PACMAN=(
     # Editores de texto/código
     "vim"
-    "code"
     
     # Utilitários
     "nodejs"
