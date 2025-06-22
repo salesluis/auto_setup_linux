@@ -72,18 +72,11 @@ for app_flatpak in "${APPS_FLATPAK[@]}"; do
 done
 
 
-# fazendo o download de arquivos .deb
-
-wget -P /home/salesluis/Downloads https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
-wget -P /home/salesluis/Downloads https://vscode.download.prss.microsoft.com/dbazure/download/stable/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/code_1.100.2-1747260578_amd64.deb
-
-
-cd /home/salesluis/Downloads
-apt install ./*.deb
-
 # Limpando pacotes não necessários
 apt autoremove -y
 apt clean
+
+wget https://mega.nz/linux/repo/xUbuntu_24.10/amd64/megasync-xUbuntu_24.10_amd64.deb && sudo apt install "$PWD/megasync-xUbuntu_24.10_amd64.deb"
 
 echo "Sistema limpo. Todas as instalações concluídas."
 echo "====================================="
