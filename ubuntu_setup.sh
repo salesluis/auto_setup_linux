@@ -16,20 +16,13 @@ apt update
 
 
 APPS_APT=(
-    # Editores de texto/código
     "vim"
-    "code"
-    
-    # Utilitários
     "nodejs"
     "htop"
     "git"
     "curl"
     "wget"
-    
-    # Outros
     "flatpak"
-
 )
 
 
@@ -42,6 +35,9 @@ APPS_FLATPAK=(
     "com.google.Chrome"
     "org.chromium.Chromium"
     "com.getpostman.Postman"
+    "com.jgraph.drawio.desktop"
+    "com.jetbrains.Rider"
+    "app.zen_browser.zen"
 
 )
 
