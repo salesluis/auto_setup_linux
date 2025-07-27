@@ -1,4 +1,18 @@
 #!/bin/bash
+echo "====================================="
+echo "  Criando laboratorio e ambiente...  "
+echo "====================================="
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+\. "$HOME/.nvm/nvm.sh"
+nvm install 22
+node -v
+nvm current 
+npm -v
+
+mkdir ~ 
+mkidir dev && cd dev
+mkdir projects estudies
 
 
 echo "====================================="
@@ -23,22 +37,25 @@ APPS_APT=(
     "curl"
     "wget"
     "flatpak"
+    "gnome-tweaks"
 )
 
 
 APPS_FLATPAK=(
+    "com.visualstudio.code"
     "io.github.fsobolev.TimeSwitch"
     "com.spotify.Client"
     "com.discordapp.Discord"
+    "io.dbeaver.DBeaverCommunit"
     "com.bitwarden.desktop"
     "flathub md.obsidian.Obsidian"
     "com.google.Chrome"
-    "org.chromium.Chromium"
     "com.getpostman.Postman"
     "com.jgraph.drawio.desktop"
     "com.jetbrains.Rider"
-    "app.zen_browser.zen"
-
+    "com.jgraph.drawio.desktop"
+    "com.mattjakeman.ExtensionManager"
+    "org.gnome.Extensions"
 )
 
 echo "instalando apps do repositório apt"
