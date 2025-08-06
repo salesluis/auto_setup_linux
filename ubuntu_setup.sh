@@ -6,11 +6,8 @@ echo "====================================="
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
 \. "$HOME/.nvm/nvm.sh"
 nvm install 22
-node -v
-nvm current 
-npm -v
 
-mkdir ~ 
+cd ~ 
 mkidir dev && cd dev
 mkdir projects estudies
 
@@ -31,7 +28,6 @@ apt update
 
 APPS_APT=(
     "vim"
-    "nodejs"
     "htop"
     "git"
     "curl"
@@ -51,8 +47,6 @@ APPS_FLATPAK=(
     "flathub md.obsidian.Obsidian"
     "com.google.Chrome"
     "com.getpostman.Postman"
-    "com.jgraph.drawio.desktop"
-    "com.jetbrains.Rider"
     "com.jgraph.drawio.desktop"
     "com.mattjakeman.ExtensionManager"
     "org.gnome.Extensions"
